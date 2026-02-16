@@ -16,11 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import first_page
-from .views import second_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', first_page),
-    path('link.html', second_page)
+
 ]
