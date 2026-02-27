@@ -17,3 +17,6 @@ def thanks_page(request):
         'name': name,
         'phone': phone
     })
+
+def nasled(request):
+    return render(request, "./nasled.html")
